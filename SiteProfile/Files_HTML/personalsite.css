@@ -1,0 +1,91 @@
+/* Resetando soft CSS*/
+* {
+  box-sizing : border-box;
+  margin : 0;
+  padding : 0;
+}
+
+body {
+  background-color : aliceblue;
+  font-family : Verdana;
+  background-size : 1400px 650px;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color : aliceblue;
+}
+
+.menu a {
+  color: teal;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu li {
+  display : flex;
+  list-style : none;
+}
+
+.menu ul {
+  display : flex;
+  justify-content: space-around;
+}
+
+.img-perfil, 
+.img-repositorio {
+  height : 300px; /*altura_*/
+  width : 600px; /*largura*/
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.site-subtitle,
+.site-title {
+  color: teal;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+.Contato,
+.Portfolio {
+  padding: 2em;
+  height: 100vh;
+}
+
+.icons a {
+  color: white;
+  font-size: 3em;
+}
+
+figcaption {
+  text-align: center;
+}
