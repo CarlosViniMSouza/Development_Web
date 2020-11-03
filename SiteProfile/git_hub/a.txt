@@ -1,2 +1,0 @@
-Linha modificada no ramo *master
-esta linha foi inclusa pelo ramo * test1
